@@ -23,6 +23,6 @@ var server = net.createServer(function(client) { //'connection' listener
 
 });
 
-server.listen(process.argv[0], function() { //'listening' listener
-  console.log('server bound to port: '+process.argv[0]);
+server.listen(process.argv[2], function() { //'listening' listener
+  console.log('server bound to port: '+process.argv[2]);
 });
