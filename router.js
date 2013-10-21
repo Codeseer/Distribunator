@@ -1,7 +1,7 @@
 //respond to requests for lookups
 
 var net = require('net');
-var endSequence = '\n'
+var endSequence = '\n';
 var servers = {
   s1 : 'localhost:9001',
   s2 : 'localhost:9002'
